@@ -1,0 +1,187 @@
+{
+  "evento": {
+    "nome": "2ª Corrida Fisio & TO",
+    "organizador": "CREFITO-15",
+    "organizadorNomeCompleto": "Conselho Regional de Fisioterapia e Terapia Ocupacional da 15ª Região",
+    "slogan": "Movimento que Transforma",
+    "campanhaTema": "Run Therapy - Corrida e Caminhada da Saúde e Bem-Estar",
+    "data": "11 de outubro de 2026",
+    "dataISO": "2026-10-11",
+    "local": "Orla de Camburi, Vitória/ES",
+    "pontoConcentracao": "2º bolsão de estacionamento da Orla de Camburi, próximo à Wellness Club",
+    "localMapaUrl": "https://maps.app.goo.gl/8hVyvs6ttkZ7UdZBA",
+    "localMapaCoordenadas": { "lat": -20.285113, "lng": -40.29073 },
+    "duracaoMaximaMinutos": 90,
+    "gratuita": true
+  },
+  "modalidades": [
+    {
+      "nome": "Caminhada Participativa",
+      "distanciaKm": 3,
+      "carater": "participativa e não competitiva",
+      "aquecimento": "05h45",
+      "largada": "06h30"
+    },
+    {
+      "nome": "Corrida Competitiva",
+      "distanciaKm": 5,
+      "carater": "competitiva, com premiação",
+      "aquecimento": "05h45",
+      "largada": "06h15"
+    }
+  ],
+  "cronograma": [
+    { "horario": "05h45", "atividade": "Aquecimento" },
+    { "horario": "06h15", "atividade": "Largada da Corrida - 5 km" },
+    { "horario": "06h30", "atividade": "Largada da Caminhada - 3 km" }
+  ],
+  "elegibilidade": {
+    "idadeMinima": 18,
+    "publico": "Profissionais e estudantes de Fisioterapia e Terapia Ocupacional",
+    "observacao": "Estudantes devem anexar comprovante de matrícula válido no ato da inscrição."
+  },
+  "inscricao": {
+    "gratuita": true,
+    "prazoFinal": "04 de outubro de 2026, às 23h59",
+    "observacaoPrazo": "Pode encerrar antecipadamente caso o limite de vagas seja atingido.",
+    "unicaPessoalIntransferivel": true,
+    "doacao": {
+      "obrigatoria": true,
+      "quantidade": "2 kg de alimentos não perecíveis",
+      "quando": "no ato da retirada do kit",
+      "destino": "Banco de Alimentos Herbert de Souza",
+      "baseLegal": "Ofício CEMV nº 036/2026 - Administração Municipal de Vitória",
+      "condicoes": "Alimentos dentro da validade, em embalagens originais, íntegras e fechadas."
+    },
+    "botoes": [
+      {
+        "id": "inscricao-estudante",
+        "rotulo": "Inscrição - Estudante",
+        "publico": "Estudantes de Fisioterapia e Terapia Ocupacional",
+        "urlGoogleForms": "COLOQUE_AQUI_O_LINK_DO_GOOGLE_FORMS_ESTUDANTE",
+        "requisitoAdicional": "Anexar comprovante de matrícula válido"
+      },
+      {
+        "id": "inscricao-profissional",
+        "rotulo": "Inscrição - Profissional",
+        "publico": "Profissionais de Fisioterapia e Terapia Ocupacional",
+        "urlGoogleForms": "COLOQUE_AQUI_O_LINK_DO_GOOGLE_FORMS_PROFISSIONAL",
+        "requisitoAdicional": null
+      }
+    ]
+  },
+  "kitParticipacao": {
+    "retirada": {
+      "local": "A definir (em Vitória/ES)",
+      "data": "10 de outubro de 2026",
+      "horarioInicio": "08h00",
+      "horarioFim": "17h00"
+    },
+    "itens": [
+      "Número de peito",
+      "4 alfinetes",
+      "Camisa oficial da corrida",
+      "Sacola térmica personalizada",
+      "Kit alimentação (entregue após a conclusão da prova)",
+      "Medalha de participação (finisher, entregue após a conclusão da prova)",
+      "Outros brindes dos parceiros do evento"
+    ],
+    "observacoes": [
+      "Tamanho da camiseta deve ser informado no ato da inscrição; troca não é garantida na retirada do kit.",
+      "Disponibilidade dos tamanhos sujeita ao estoque.",
+      "Retirada do kit em 10 de outubro de 2026, das 08h às 17h, em Vitória/ES (local exato a ser divulgado nos canais oficiais); não haverá entrega de kit no dia do evento.",
+      "Kit pode ser retirado por terceiro mediante documentos do titular e do responsável pela retirada."
+    ]
+  },
+  "premiacao": {
+    "modalidadePremiada": "Corrida - 5 km",
+    "totalTrofeus": 12,
+    "categorias": [
+      { "nome": "Profissionais - Masculino", "colocacoes": ["1º", "2º", "3º"] },
+      { "nome": "Profissionais - Feminino", "colocacoes": ["1º", "2º", "3º"] },
+      { "nome": "Categoria 60+ (Geral)", "colocacoes": ["1º", "2º", "3º"], "observacao": "Categoria única, independente de sexo ou profissão, para atletas com 60 anos ou mais" },
+      { "nome": "Categoria Estudantes (Geral)", "colocacoes": ["1º", "2º", "3º"], "observacao": "Categoria única, independente de sexo ou curso" }
+    ],
+    "observacaoCaminhada": "A caminhada de 3 km é exclusivamente participativa e não entra na classificação para premiação."
+  },
+  "cronometragem": {
+    "sistema": "Transponder descartável (chip)",
+    "obrigatorio": true,
+    "posicaoNumeroPeito": "Frente do corpo, no peito (uso incorreto pode gerar desclassificação)"
+  },
+  "estruturaApoio": [
+    "Banheiros químicos e guarda-volumes na concentração, largada e chegada",
+    "Pontos de hidratação distribuídos ao longo dos percursos",
+    "Serviço de ambulância para atendimento emergencial",
+    "Seguro Atleta para participantes inscritos",
+    "Apoio de segurança e sinalização ao longo dos percursos"
+  ],
+  "regrasGerais": [
+    "Prova segue as regras da Federação Capixaba de Atletismo (FECAt).",
+    "Proibido cortar ou encurtar percurso, usar meio de locomoção não autorizado ou receber auxílio externo indevido.",
+    "Proibido trocar ou usar chip/número de peito de outra pessoa (gera desclassificação).",
+    "Não é permitida participação de acompanhantes não inscritos ou animais de estimação no percurso.",
+    "Medalha de participação exige uso do número de peito na parte frontal do corpo.",
+    "Protestos sobre resultado devem ser feitos por escrito em até 5 minutos após a divulgação oficial."
+  ],
+  "condicoesEvento": {
+    "podeAlterar": true,
+    "motivosAlteracao": [
+      "Questões de segurança",
+      "Determinação de órgãos públicos",
+      "Condições climáticas",
+      "Necessidade operacional",
+      "Motivo de força maior"
+    ],
+    "comunicacaoOficial": "Canais oficiais do CREFITO-15"
+  },
+  "direitosImagemLGPD": {
+    "autorizacaoImagem": "Ao se inscrever, o(a) participante autoriza o uso de imagem e voz para fins informativos, institucionais e promocionais do evento.",
+    "lgpd": "Dados pessoais tratados conforme a Lei nº 13.709/2018 (LGPD), exclusivamente para fins relacionados ao evento."
+  },
+  "termoResponsabilidade": {
+    "obrigatorio": true,
+    "descricao": "Ao concordar com o Regulamento no ato da inscrição, o participante aceita o Termo de Responsabilidade (Anexo I), declarando maioridade, condição física adequada, ciência dos riscos e veracidade das informações."
+  },
+  "cta": {
+    "baixarRegulamento": {
+      "rotulo": "Baixar Regulamento Completo (PDF)",
+      "arquivo": "/regulamento-2a-corrida-fisio-to.pdf"
+    }
+  },
+  "identidadeVisual": {
+    "_observacao": "Paleta atualizada em 2026-09 a partir das novas artes de referência (header.png/footer.png) enviadas pelo CREFITO-15. Substitui a paleta 'arco-íris' antiga.",
+    "headerImagem": null,
+    "headerModo": "hibrido-svg-html",
+    "headerIcone": "/images/corredores-icon.svg",
+    "headerTexto": {
+      "linha1": { "texto": "2ª CORRIDA", "cor": "#054B45" },
+      "linha2parte1": { "texto": "FISIO", "cor": "#054B45" },
+      "linha2parte2": { "texto": "&TO", "cor": "#00A17E" },
+      "linha3": { "texto": "CREFITO-15", "cor": "#054B45" }
+    },
+    "headerAcentoDecorativo": {
+      "descricao": "Onda diagonal + padrão de pontos (dot grid) no canto, recriados em CSS/SVG simples (não são imagem) — substitui as antigas faixas diagonais coloridas",
+      "corOnda": "#016757",
+      "corOndaClara": "#018B70",
+      "corPontos": "#CCEFE5"
+    },
+    "footerImagem": "/images/footer.jpg",
+    "cores": {
+      "brandEmerald": "#00A17E",
+      "brandDark": "#054B45",
+      "brandTealDeep": "#016757",
+      "brandTealBright": "#018B70",
+      "brandMint": "#37C2A0",
+      "brandTealMid": "#118779",
+      "brandMintLight": "#7BD4BF",
+      "brandMintPale": "#CCEFE5",
+      "branco": "#FFFFFF"
+    }
+  },
+  "contato": {
+    "canaisOficiais": "Canais oficiais de comunicação do CREFITO-15",
+    "observacao": "Site oficial de inscrição, local exato de largada e percursos serão divulgados previamente pelo CREFITO-15.",
+    "email": "eventos@crefito15.org.br"
+  }
+}
